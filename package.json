@@ -3,10 +3,21 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "description": "AI-powered test data generator for automation testing",
-  "types": "dist/index.d.ts",
+  "types": "dist/index.ts",
+  "module": "dist/index.esm.js",
+  "path" : "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singh-ankush/AutoData.git"
   },
   "keywords": ["automation", "testing", "faker", "openai" , "test data", "ai"],
   "author": "Ankush Singh",
