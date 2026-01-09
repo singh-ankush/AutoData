@@ -1,0 +1,7 @@
+src/
+├── AutoData.ts
+├── presets.ts
+├── clients/
+│   ├── openaiClient.ts
+│   └── openrouterClient.ts
+└── index.ts
