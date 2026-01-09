@@ -7,9 +7,10 @@ designed for Playwright, Cypress, Selenium, Jest, and backend tests.
 
 ## Installation
 
-```bash
+> bash
+```
 npm install @<your-github-username>/autodata
-
+```
 
 > Usage
 ```js
